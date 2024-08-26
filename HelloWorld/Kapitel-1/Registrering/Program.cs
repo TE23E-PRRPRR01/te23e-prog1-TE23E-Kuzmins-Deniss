@@ -8,4 +8,15 @@ string förnamn = Console.ReadLine();
 Console.Write("Ange efternamn:");
 string efternamn = Console.ReadLine();
 Console.WriteLine("Hej! " + förnamn + " " + efternamn);
-Console.WriteLine($"Hej! {Förnamn} {efternamn}");
+Console.WriteLine($"Hej! {förnamn} {efternamn}");
+
+// Är det Deniss som loggar in?
+if (förnamn == "Deniss")
+{
+    Console.WriteLine("Vad trevligt att du är tillbacka!");
+}
+
+if (efternamn == "Kuzmins")
+{
+    Console.WriteLine("Vackert efternamn!");
+}
