@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rubrik {
+    text-align: center;
+    font-family: monospace;
+}
+
+div {
+    border: 3px #D6001C solid;
+    border-radius: 8px;
+    margin: 5px
+}
+
+.bakgrund {
+    background: url(./img/snow_winter_trees.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.länkar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+
+.bilder {
+    height: 40px;
+    border: 2px black solid;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#vinter {
+    text-align: center;
+    font-family: "Mountains of Christmas", serif;
+    margin-top: 5%;
+}
+
+.mellan {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.vänster {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.weuweb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.mitten {
+   width:70%;
+
+}
+
+.höger {
+    width: 15%;
+}
+
+.julträd {
+    width: 100%;
+    height: 100%;
+}
+
+.sidfot{
+    text-align: center;
+}
